@@ -26,8 +26,7 @@ def Euler46():
           break
       if found==False:
         print 'found Goldman #: ',i
-        exit()
+        return i
     i+=2
-    #if i%10000==1: print i
 
 Euler46()
